@@ -12,8 +12,8 @@ export const TransactionHistory = () => {
 
     return (
         <div>
-            <h3>
-                Transaction History
+            <h3 className ="header3-history">
+                History
             </h3>
             <ul className="list">
                 {transactions.map(transaction => 

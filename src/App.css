@@ -42,6 +42,12 @@ h3 {
   margin: 40px 0 10px;
   text-align: center;
 }
+.header3-history {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin: 40px 0 10px;
+  text-align: left;
+}
 
 h4 {
   margin: 0;
@@ -101,10 +107,10 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: lightsteelblue;
+  background-color: indigo;
   box-shadow: var(--box-shadow);
   color: #fff;
-  border: 0;
+  border: 1;
   display: block;
   font-size: 16px;
   margin: 10px 0 30px;

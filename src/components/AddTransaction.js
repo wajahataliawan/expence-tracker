@@ -26,7 +26,7 @@ export const AddTransaction = () => {
 
     return (
         <div>
-            <h3>Add New Transaction</h3>
+            <h3 className="header3-history">Add New Transaction</h3>
             <form onSubmit={onSubmit}>
                 <div className="form-control">
                     <label htmlFor="description">
@@ -36,7 +36,7 @@ export const AddTransaction = () => {
                             id="description"
                             value={description}
                             onChange={(e) => setDescription(e.target.value)}
-                            placeholder="Transaction Detail" 
+                            placeholder="Enter Text..." 
                             required="required"
                     />
                 </div>
@@ -48,7 +48,7 @@ export const AddTransaction = () => {
                             id="transactionamount"
                             value={transactionAmount}
                             onChange={(e) => setTransactionAmount(e.target.value)}
-                            placeholder="Amount of Transaction"
+                            placeholder="Enter Amount..."
                             required="required"
                     />
                 </div>
